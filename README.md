@@ -1,5 +1,7 @@
 ### Cities API
 
+Projeto desenvolvido a fins de estudos de desenvolvimento de API, todos os cursos que estou fazendo relacionado a plataforma da DIO, costumo montar um projeto base para medir a rotina de evolução, aqui listo alguns deles, com envolvimento de Backend e banco de dados, um futuro proximo irei desenvolver a interface front. Em especial aqui tem uma aplicação que faz consultas de duas cidades do Brasil e faz o calculo entre elas, trazendo o resultado de forma responsiva.
+
 ##### Requirements
 
 - [x] Linux
