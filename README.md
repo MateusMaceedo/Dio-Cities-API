@@ -1,6 +1,6 @@
 ### Cities API
 
-## Requirements
+##### Requirements
 
 - [x] Linux
 - [x] Git
@@ -9,9 +9,9 @@
 - [x] IntelliJ Community
 - [x] Heroku CLI
 
-## DataBase
+#### DataBase
 
-### Postgres
+##### Postgres
 
 * [Postgres Docker Hub](https://hub.docker.com/_/postgres)
 
@@ -19,7 +19,7 @@
 docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
 ```
 
-### Populate
+##### Populate
 
 * [data](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
 
@@ -44,7 +44,7 @@ CREATE EXTENSION earthdistance;
 * [postgrescheatsheet](https://postgrescheatsheet.com/#/tables)
 * [datatype-geometric](https://www.postgresql.org/docs/current/datatype-geometric.html)
 
-### Access
+##### Access
 
 ```shell script
 docker exec -it cities-db /bin/bash
@@ -52,7 +52,7 @@ docker exec -it cities-db /bin/bash
 psql -U postgres_user_city cities
 ```
 
-### Query Earth Distance
+##### Query Earth Distance
 
 Point
 ```roomsql
@@ -67,7 +67,7 @@ select earth_distance(
 ) as distance;
 ```
 
-## Spring Boot
+##### Spring Boot
 
 * [https://start.spring.io/](https://start.spring.io/)
 
@@ -78,31 +78,31 @@ select earth_distance(
 + Spring Data JPA
 + PostgreSQL Driver
 
-### Spring Data
+##### Spring Data
 
 * [jpa.query-methods](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
 
-### Properties
+##### Properties
 
 * [appendix-application-properties](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
 * [jdbc-database-connectio](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases)
 
-### Types
+##### Types
 
 * [JsonTypes](https://github.com/vladmihalcea/hibernate-types)
 * [UserType](https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/usertype/UserType.html)
 
-## Heroku
+##### Heroku
 
 * [DevCenter](https://devcenter.heroku.com/articles/getting-started-with-gradle-on-heroku)
 
-## Code Quality
+##### Code Quality
 
-### PMD
+##### PMD
 
 + https://pmd.github.io/pmd-6.8.0/index.html
 
-### Checkstyle
+##### Checkstyle
 
 + https://checkstyle.org/
 
