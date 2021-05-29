@@ -1,13 +1,13 @@
-# Cities API
+### Cities API
 
 ## Requirements
 
-* Linux
-* Git
-* Java 8
-* Docker
-* IntelliJ Community
-* Heroku CLI
+- [x] Linux
+- [x] Git
+- [x] Java 8
+- [x] Docker
+- [x] IntelliJ Community
+- [x] Heroku CLI
 
 ## DataBase
 
@@ -113,3 +113,7 @@ select earth_distance(
 ```shell script
 wget https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
 ```
+<a href="https://www.linkedin.com/in/mateus-macedo-937a32163/">
+ <img style="border-radius:50%" width="100px; "src="https://avatars.githubusercontent.com/u/63172367?s=460&u=11fd26ea8a7f5663d7707d7ef254e4f8bfca1b05&v=4"/>
+ <p>Mateus Macedo</p>
+</a>
