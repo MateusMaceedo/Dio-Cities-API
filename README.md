@@ -8,12 +8,14 @@ Projeto desenvolvido a fins de estudos de desenvolvimento de API, todos os curso
 
 ##### Requirements
 
-- [x] Linux
-- [x] Git
-- [x] Java 8
-- [x] Docker
-- [x] IntelliJ Community
-- [x] Heroku CLI
+- [x] - Linux
+- [x] - Git
+- [x] - Java 8 ++
+- [x] - Docker
+- [x] - IntelliJ Community
+- [x] - Heroku CLI
+- [x] - Maven (Baseado em XML) - Opcional
+- [x] - Gradle (Baseado em Grovve) Com suporte ao **Kotlin** - Opcional  
 
 #### DataBase
 
