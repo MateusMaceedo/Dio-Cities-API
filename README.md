@@ -8,7 +8,7 @@ Projeto desenvolvido a fins de estudos de desenvolvimento de API, todos os curso
 
 ##### Requirements
 
-- [x] - Linux
+- [x] - Linux (Qualquer distro baseada em Debian)
 - [x] - Git
 - [x] - Java 8 ++
 - [x] - Docker
