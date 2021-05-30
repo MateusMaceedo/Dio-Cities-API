@@ -15,7 +15,7 @@ Projeto desenvolvido a fins de estudos de desenvolvimento de API, todos os curso
 - [x] - IntelliJ Community
 - [x] - Heroku CLI
 - [x] - Maven (Baseado em XML) - Opcional
-- [x] - Gradle (Baseado em *groovy) Com suporte ao **Kotlin** - Opcional  
+- [x] - Gradle (Baseado em **groovy**) Com suporte ao **Kotlin** - Opcional  
 
 #### DataBase
 
