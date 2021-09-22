@@ -1,6 +1,6 @@
-package com.github.mateusmaceedo.citiesapi.repository;
+package com.github.mateusmacedo.countries.repositories;
 
-import com.github.mateusmaceedo.citiesapi.Country.Country;
+import com.github.mateusmacedo.countries.entities.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CountryRepository extends JpaRepository<Country, Long> {
